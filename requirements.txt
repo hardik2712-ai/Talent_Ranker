@@ -7,3 +7,4 @@ pandas
 fitz  # if using PyMuPDF (sometimes alias)
 PyPDF2
 docx2txt
+sentence-transformers
