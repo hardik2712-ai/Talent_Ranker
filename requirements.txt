@@ -1,10 +1,10 @@
 streamlit
-spacy==3.7.2
+spacy==3.6.1
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0.tar.gz
 scikit-learn
 fuzzywuzzy
 python-Levenshtein
-pandas
-fitz  # if using PyMuPDF (sometimes alias)
+sentence-transformers
 PyPDF2
 docx2txt
-sentence-transformers
+pandas
