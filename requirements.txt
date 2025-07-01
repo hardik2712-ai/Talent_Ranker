@@ -5,5 +5,5 @@ fuzzywuzzy
 python-Levenshtein
 pandas
 fitz  # if using PyMuPDF (sometimes alias)
-PyMuPDF
+PyPDF2
 docx2txt
