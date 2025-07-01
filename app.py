@@ -4,8 +4,8 @@ from utils.resume_parser import extract_multiple_resumes
 from utils.matcher import get_similarity_score, get_final_score
 from utils.ats_utils import get_ats_score, rank_resumes
 
-st.set_page_config(page_title="HR Resume Matcher", layout="wide")
-st.title("📄 Resume Matcher & ATS Screener")
+st.set_page_config(page_title="Talent Ranker", layout="wide")
+st.title(" Resume Matcher & ATS Screener")
 
 job_description = st.text_area("Paste the Job Description (JD) here", height=200)
 uploaded_files = st.file_uploader("Upload multiple resumes (PDF/DOCX)", type=["pdf", "docx"], accept_multiple_files=True)
